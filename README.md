@@ -1,8 +1,8 @@
 # ASME---Website
-
+_ Read the instructions given below _
 ![poster](https://user-images.githubusercontent.com/115893690/231539820-fdad79c7-d911-4968-8715-042727e13fb2.png)
 
-About us
+## About us :
 Mozilla Campus Club CCEW is a student committee working to spread awareness on Open Source software. We organize webinars and workshops on different technical topics and making Open Source contributions.
 This is a collaboration with ASME CCOEW
 
