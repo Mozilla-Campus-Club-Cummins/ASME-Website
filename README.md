@@ -1,5 +1,6 @@
 # ASME---Website
-_ Read the instructions given below _
+_Read the instructions given below_
+
 ![poster](https://user-images.githubusercontent.com/115893690/231539820-fdad79c7-d911-4968-8715-042727e13fb2.png)
 
 ## About us :
@@ -8,7 +9,7 @@ This is a collaboration with ASME CCOEW
 
 This repository is only for students of MKSSS's Cummins college of engineering Pune.
 
-Instructions:
+## Instructions:
 • Any PR(Pull Request) from outside college will not be accepted.
 
 • Maximum of four PR's will be allowed in this repository.
