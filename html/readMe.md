@@ -1,1 +1,1 @@
-### add all html files in this folder
+### Add all HTML files in this folder
