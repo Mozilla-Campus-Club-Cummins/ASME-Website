@@ -1,1 +1,1 @@
-### add all javascript files into this folder
+### Add all Javascript files in this folder
