@@ -1,5 +1,4 @@
-# ASME---Website
-_Read the instructions given below_
+# ASME Website
 
 ![poster](https://user-images.githubusercontent.com/115893690/231539820-fdad79c7-d911-4968-8715-042727e13fb2.png)
 
