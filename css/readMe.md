@@ -1,1 +1,1 @@
-### add all css file in this folder
+### Add all CSS file in this folder
