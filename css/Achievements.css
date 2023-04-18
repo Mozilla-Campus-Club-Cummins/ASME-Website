@@ -1,0 +1,119 @@
+/* Set background color */
+body {
+	background-color: #fff; /* white */
+  }
+  header {
+	background-color: #00C0F0;
+	padding: 20px;
+}
+  
+  /* Style for top logo */
+  #top-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  #top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+  }
+  
+  /* Style for blocks */
+  .block {
+	width: 30%;
+	height: 300px;
+	margin: 20px;
+	display: inline-block;
+	background-color: #00C0F0; /* blue */
+	color: #fff; /* white */
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .block:nth-child(odd) {
+	background-color: #000; /* black */
+  }
+  
+  /* Style for block text */
+  .block h2 {
+	font-size: 24px;
+	margin-top: 50px;
+  }
+  
+  .block p {
+	font-size: 20px;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 768px) {
+	.block {
+	  width: 45%;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.block {
+	  width: 90%;
+	}
+  }
+  /* container divs for the first row of blocks */
+  .row1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+  }
+  
+  /* container divs for the second row of blocks */
+  .row2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+  }
+  
+  /* individual block divs */
+  .block {
+	width: 30%;
+	background-color: #00C0F0;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	font-family: "Roboto", sans-serif;
+  }
+  .achievements_heading{
+	background-color: black;
+	color: #fff;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	height: 10px;
+	padding: 20px;
+  }
+  
+  
+  /* media query for smaller screens */
+  @media (max-width: 768px) {
+	.row1, .row2 {
+	  flex-direction: column;
+	  align-items: stretch;
+	}
+	.block {
+	  width: 100%;
+	  margin-top: 20px;
+	}
+  }
+  
+  
