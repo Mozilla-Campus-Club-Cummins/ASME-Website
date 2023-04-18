@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #00C0F0;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .logo {
+    flex-basis: 25%;
+    padding: 20px;
+    margin-left: auto; /* aligns the logo to the right */
+  }
+  
+  .logo img {
+    max-width: 100%;
+  }
+  
+  .upcoming-events {
+    flex-basis: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.previous-events {
+    flex-basis: 25%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+  
+  .event {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .event h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .event p {
+    font-size: 16px;
+    margin: 10px 0 0;
+  }
+  
+  .event img {
+    float: left;
+    margin-right: 10px;
+    max-width: 150px;
+  }
+  
+  .button {
+    background-color: #00C0F0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #00C0F0;
+  }
+  
+  
