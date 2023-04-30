@@ -1,151 +1,25 @@
-html{
-    height: 100vh;
-}
-body{
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.nav-container{
-    min-width:80%;
-    display: flex;
-    position:fixed;
-    justify-content: center;
-}
-.navbar-manual{
-    width:100%;
-    background-color: rgb(45, 52, 78);
-    margin: 1%;
-    align-items: center;
-}
-.container-fluid{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    align-items: center;
-}
-.nav-cont{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.navbar-brand{
-    padding: 2%;
-    width: 30%;
-
-    font-family:Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 27px;
-}
-.nav-items{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    list-style: none;
-    justify-content:end;
-}
-.nav-item{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.nav-item a{
-    font-family:Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    text-transform: capitalize;
-    color: aliceblue;
-    font: 200;
-}
-.content{
+.about-start .content{
     padding-top: 7%;
     /* width: 80%; */
     display: flex;
     flex-direction: row;
-    color: rgba(0, 0, 0, 0.722);
+    color: rgba(203, 232, 247, 0.722);
     font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
 }
-.descrption{
+.about-start .descrption{
 padding: 5%;
 }
-.image{
+.about-start .image{
     width: fit-content;
     height: fit-content;
     padding: 5%;
 }
-.image img{
+.about-start .image img{
     height: 200px;
 }
-footer{
-    width: 100vw;
-    background-color:  rgb(45, 52, 78);
-}
-.foot{
-    padding: 4%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.footer-title{
-    display: flex;
-    flex-direction: column;
-}
-.college-name{
-    color: rgba(240, 248, 255, 0.687);
-    padding-top: 1%;
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.reach-out{
-    padding: 10%;
-    color: rgba(240, 248, 255, 0.64);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
-    display: flex;
-    flex-direction: column;
-}
-.reach-out a{
-    color: rgba(240, 248, 255, 0.613);
-}
-.foot-title{
-    color: aliceblue;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-.foot-list{
-    width: 75%;
-    justify-content: space-around;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    color: aliceblue;
-    font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
 
-.dept-items{
-    list-style: none;
-    color: rgba(240, 248, 255, 0.412);
-    font-size: smaller;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-.dept-item a{
-    list-style: none;
-    color: rgba(161, 170, 178, 0.641);
-    font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-.dept-item a:hover{
-    text-decoration: underline;
+.about-start p{
+    padding: 20px;
+    font-size: medium;
 }
