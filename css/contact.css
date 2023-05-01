@@ -181,3 +181,10 @@
         width: 100%;
     } 
 }
+
+.blog-start .blog {
+    margin-top: 110px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }

@@ -1,11 +1,5 @@
 /* Set background color */
-body {
-	background-color: #fff; /* white */
-  }
-  header {
-	background-color: #00C0F0;
-	padding: 20px;
-}
+
   
   /* Style for top logo */
   #top-left {
@@ -13,12 +7,28 @@ body {
 	top: 0;
 	left: 0;
   }
-  
+  .blog-start  .container {
+	
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .blog-start .blog {
+    margin-top: 110px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
   #top-right {
 	position: absolute;
 	top: 0;
 	right: 0;
   }
+.here{
+	padding: 20px;
+	font-size: 20px;
+}
   
   /* Style for blocks */
   .block {
@@ -26,7 +36,7 @@ body {
 	height: 300px;
 	margin: 20px;
 	display: inline-block;
-	background-color: #00C0F0; /* blue */
+	background-color: #3b67ad; /* blue */
 	color: #fff; /* white */
 	text-align: center;
 	vertical-align: middle;
@@ -34,7 +44,7 @@ body {
   }
   
   .block:nth-child(odd) {
-	background-color: #000; /* black */
+	background-color: #151b43; /* black */
   }
   
   /* Style for block text */
@@ -44,7 +54,7 @@ body {
   }
   
   .block p {
-	font-size: 20px;
+	font-size: 17px;
   }
   
   /* Media queries for responsive design */
@@ -64,7 +74,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: white;
+	background-color: #222020;
 	padding: 20px;
 	margin-top: 20px;
   }
@@ -74,7 +84,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: white;
+	background-color: #222020;
 	padding: 20px;
 	margin-top: 20px;
   }
@@ -82,7 +92,7 @@ body {
   /* individual block divs */
   .block {
 	width: 30%;
-	background-color: #00C0F0;
+	background-color: #1d5765;
 	padding: 20px;
 	color: white;
 	text-align: center;
@@ -91,9 +101,13 @@ body {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	font-family: "Roboto", sans-serif;
   }
+
+  .block h2{
+	padding-bottom: 20px;
+  }
   .achievements_heading{
-	background-color: black;
-	color: #fff;
+	background-color: #222020;
+	color: #9b1515;
 	margin-top: 20px;
 	display: flex;
 	justify-content: space-between;
