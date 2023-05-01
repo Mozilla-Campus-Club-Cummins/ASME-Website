@@ -15,8 +15,12 @@ img{
     /* background-color: #9caeb4; */
     
 } 
+.nav-start{
+    z-index: 1000;
+}
 
 .team{
+    z-index: -1;
      position: relative;
     width: 100%; 
      /* height: 0vh;   */
