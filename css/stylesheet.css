@@ -5,7 +5,8 @@ img{
     max-height: auto;
 }
 
-
+.container{
+    z-index: 190;} 
 *{
     padding: 0;
     margin: 0;
