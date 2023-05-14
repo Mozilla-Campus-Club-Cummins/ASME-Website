@@ -7,6 +7,12 @@
 	top: 0;
 	left: 0;
   }
+
+  .blog-start .blog p{
+	padding: 20px;
+	gap: 10px;
+	text-align: left;
+  }
   .blog-start  .container {
 	
     display: flex;
@@ -54,6 +60,7 @@
   }
   
   .block p {
+	padding: 20px;
 	font-size: 17px;
   }
   
