@@ -7,87 +7,15 @@
     margin-top: 100px;
     width: 100%;
 }
-.footer-start img{
-    padding-right: 10px;
-}
+
 .footer-start .footer{
     position: relative;
     width: 100%;
-    background-color: rgb(66, 145, 235);
+    background-color: rgb(36, 137, 252);
     min-height: 100px;
-    padding: 20px 50px;
-}
-.footer-start .row{
-
-    display: flex;
-    flex-wrap: wrap;
-}
-.footer-start ul{
-    list-style: none;
+    padding-bottom: 0;
 }
 
-.footer-start .footer-col{
-    padding: 0 15px;
-}
-.footer-start .footer-col h4{
-    font-size: 18px;
-    color: white;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-}
-.footer-start .footer-col h4::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: blue;
-    height: 2px;
-    box-sizing: border-box;
-    width: 2px;
-    box-sizing: border-box;
-    width: 50px;
-}
-.footer-start .footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-}
-.footer-start .footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: white;
-    text-decoration: none;
-    font-weight: 300;
-    color: #bbbbbb;
-    display: block;
-    transition: all 0.3s ease;
-}
-.footer-start .footer-col ul li a:hover{
-    color: white;
-    padding-left: 10px;
-}
-
-.footer-start .footer-col .social-links a{
-    display: inline-block;
-    
-    width: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: white;
-    transition: all 0.3s ease;
-}
-.footer-start .footer-col .social-links a:hover{
-    transform:translateY(-10px);
-    color:black;
-    background-color: white;
-}
-.footer-start .footer-col img{
-    height: 80px;
-    width: 80px;
-    display: inline-block;
-}
 .footer-start .footer .wave{
     position: absolute;
     top: -100px;
@@ -141,8 +69,54 @@
            
        }
    }
- .footer-start  .footer p{
-    color: white;
+
+.footer-start .tables{
+    display: flex;
+}
+.footer-start table{
+    padding: 30px;
+    margin: 30px;
+}
+.footer-start table th{
+    color: rgb(194, 253, 253);
+    font-size: x-large;
+    padding-bottom: 30px;
+}
+.footer-start table td {
+    text-decoration: none;
+    color: rgb(159, 179, 198);
+    font-size: large;
+    padding-bottom: 5px;
+}
+.footer-start table td a{
+    text-decoration: none;
+    color: rgb(159, 179, 198);
+    font-size: large;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+.footer-start table td a:hover{
+    color: rgb(236, 243, 246);
+    padding-left: 10px;
+}
+
+.footer-start ion-icon {
+    padding-right: 10px;
+}
+.footer-start .whitebox{
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+}
+.footer-start .whitebox .imgs{
+    gap: 20px;    
+    display: flex;
+    justify-content: center;
+}
+
+.footer-start  .footer p{
+    color: rgb(10, 4, 41);
     text-align: center;
     margin-top: 15px;
     font-size: 1.1em;
