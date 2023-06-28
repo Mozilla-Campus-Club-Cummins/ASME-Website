@@ -9,6 +9,8 @@ body {
     margin-top: 60px;
     margin-bottom: 58px;
     height: 100%;
+    max-width: 1200px; /* Set a suitable maximum width */
+    margin: 0 auto;
 }
 .homestart .container {
     display: flex;

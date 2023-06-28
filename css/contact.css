@@ -13,6 +13,8 @@
     align-items: center;
     flex-direction: column; 
     background-color: white;
+    max-width: 1200px; /* Set a suitable maximum width */
+    margin: 0 auto;
 }
 .content{
     padding-top: 20px;
@@ -165,6 +167,8 @@
 .container .contactInfo .box .icon:hover{
     background-color:  rgba(45, 52, 78, 0.202);
     color: rgb(45, 52, 78);
+    max-width: 1200px; /* Set a suitable maximum width */
+    margin: 0 auto;
 } 
 
 @media (max-width: 991px){
