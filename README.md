@@ -55,7 +55,7 @@ In the terminal, run this command:
 
 ### **Step 4: Create a new branch**
 It's a good practice to create a new branch for your changes. This keeps your work isolated from the main branch.
-### **Step 5: Make reruired changes**
+### **Step 5: Make required changes**
 Implement the changes you planned in response to the chosen issue. Follow the coding standards and guidelines outlined in the project.
 ### **Step 6: Commit changes**
 Once you've made your changes, commit them with a clear and concise commit message. With appropriate title and description.
@@ -63,15 +63,13 @@ Once you've made your changes, commit them with a clear and concise commit messa
 Push your branch with the committed changes to your forked repository on the remote server.
 ### **Step 8: Create a pull request**
 Go to the original repository's page (the one you forked from) and click the "New Pull Request" button. Select your branch as the compare branch. Imp - add issue number in description of your pull request
-### **Step 9: Review and submit**
+### **Step 9: Review and submit pull request**
 Fill in a title and description for your pull request, summarizing the changes you've made. Review the changes and ensure everything looks good.
-### **Step 10: Submit pull request**
+
 Click the "Create Pull Request" button to submit your PR. This will notify the repository owner(s) that you've made changes and want them to review and merge your code.
-### **Step 11: Respond to Feedback**
-Be responsive to any feedback or comments from the
-repository owner(s). You may need to make additional changes based on their
-feedback.
-### **Step 12: Merge the Pull Request**
-Once the repository owner(s) are satisfied with your changes, they will merge your PR into the main branch.
-### **Step 13: Delete Your Branch**
+### **Step 10: Respond to Feedback**
+Be responsive to any feedback or comments from the repository owner(s). You may need to make additional changes based on their feedback.
+### **Step 11: Merge the Pull Request**
+Once the PR is approved, it will be merged into the main codebase. The issue related to your contribution will be closed.
+### **Step 12: Delete Your Branch**
 After your PR is merged, you can delete the branch you created for this specific change.
