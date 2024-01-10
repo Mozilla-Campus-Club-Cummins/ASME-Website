@@ -67,9 +67,3 @@ Go to the original repository's page (the one you forked from) and click the "Ne
 Fill in a title and description for your pull request, summarizing the changes you've made. Review the changes and ensure everything looks good.
 
 Click the "Create Pull Request" button to submit your PR. This will notify the repository owner(s) that you've made changes and want them to review and merge your code.
-### **Step 10: Respond to Feedback**
-Be responsive to any feedback or comments from the repository owner(s). You may need to make additional changes based on their feedback.
-### **Step 11: Merge the Pull Request**
-Once the PR is approved, it will be merged into the main codebase. The issue related to your contribution will be closed.
-### **Step 12: Delete Your Branch**
-After your PR is merged, you can delete the branch you created for this specific change.
