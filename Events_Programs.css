@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+  }
+  /* new code */
+  body{
+    background-color: white;
+}
+   .blog-start .blog {
+      margin-top: 110px;
+      /* new code */
+      color: black;
+      /* old code
+       color: #fff*/
+      padding: 10px;
+      text-align: center;
+    }
+  
+    .blog-start .blog img{
+      margin-right: 20px;
+      margin-top: -10px;
+      align-items: right;
+       width: 100px ;
+       height: 60px;
+    }
+    
+    .blog-start  .container-blog {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    
+  
+    
+    .blog-start  .upcoming-events {
+      flex-basis: 50%;
+      padding: 20px;
+      text-align: left;
+      margin: 0 auto;
+  }
+  
+  .blog-start .para{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    gap: 20px;
+  }
+  
+  .blog-start  .event {
+  
+      gap: 10px;
+      /* new code */
+      color:#107282;
+      /* old code 
+    color: #fff;*/
+      margin-bottom: 20px;
+      padding: 10px;
+      /* old code 
+      border: 1px solid #ccc;*/
+      /* new code */
+      border: 1px solid #000;
+      width: 1000px;
+      border-radius: 5px;
+      overflow: hidden;
+      border-radius: 20px;
+    }
+    
+    .blog-start  .event h2 {
+     /* new code */
+      color:#2072f6;
+      /* old code 
+      color: #b0efff;*/
+      align-items: left;
+      font-size: 24px;
+      margin: 0;  
+      padding: 10px;
+    }
+    
+    .blog-start  .event p {
+      font-size: 16px;
+    }
+    
+    .blog-start  .event img {
+      float: left;
+      margin-right: 10px;
+      max-width: 150px;
+    }
+    
+    .blog-start .button {
+      padding: 10px;
+      width: fit-content;
+      height: fit-content;
+      /* old code 
+      background-color: #00C0F0;*/
+      /* new code */
+      background-color: #9cecff;
+      border: none;
+      /* new code */
+      color: black;
+      /* old code 
+      color: #fff;*/
+      cursor: pointer;
+      display: inline-block;
+      font-size: 16px;  
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    
+    .blog-start .button:hover {
+      background-color: #abd4df;
+    }
+    
+    
