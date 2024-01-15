@@ -1,0 +1,71 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, #a5bcd3, #0f3e78);
+}
+
+
+.homestart {
+    margin: 60px auto 58px;
+    height: 100%;
+    max-width: 1200px;
+}
+
+.homestart .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.homestart .logo-home {
+    width: 460px;
+    margin-top: 45px;
+    height: auto;
+}
+
+.homestart .text {
+    font: bold 24px 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+}
+
+.about-start .content {
+    padding: 5%;
+    color: #333333;
+    border-radius: 14px;
+    transition: transform 0.5s ease-in-out;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, #9fbdd7, #d3e4f3);
+    font-family: 'Times New Roman';
+}
+
+.about-start .descrption {
+    padding: 2%;
+    flex: 1;
+    font-family: Times, serif;
+}
+
+.about-start .image {
+    margin-left: auto;
+    transform: rotate(0.3s);
+}
+
+.about-start .image img {
+    max-height: 230px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-start .image img:hover {
+    transform: rotate(-3deg) scale(1.10);
+}
+
+.about-start .content:hover {
+    transform: scale(1.08);
+}
+
+
