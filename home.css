@@ -1,0 +1,37 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    /*background-color: #222020;*/
+    background: linear-gradient(rgb(248, 243, 243), rgb(17, 0, 143));
+}
+
+.homestart {
+    margin-top: 60px;
+    margin-bottom: 58px;
+    height: 100%;
+    max-width: 1200px; /* Set a suitable maximum width */
+    margin: 0 auto;
+}
+.homestart .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.homestart .logo-home {
+    width: 500px;
+    margin-top: 100px;
+    height: auto;
+    
+}
+
+.homestart .text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
