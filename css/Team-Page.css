@@ -1,0 +1,109 @@
+body {
+    background: radial-gradient(circle, rgb(147, 171, 195) 0%, rgb(235, 238, 241) 69%, rgb(9, 70, 150) 100%);
+
+}
+#Y23-24 ,#Y22-23{
+    height :800px;
+    width:1000px;
+    background-color: black;
+    color:rgb(175, 204, 230);
+}
+#Y22-23,#Y23-24{
+    
+    height :80%;
+    width:80%;
+    min-width: 315px;
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    margin :20px auto;
+    background: rgba(226, 226, 237, 0.735);
+    border: 1.2px solid rgb(11, 14, 48);
+    border-radius: 20px;
+
+}
+.OMember{
+    height:200px;
+    width:200px;
+}
+.Title{
+    margin:120px auto;
+    text-align: center;
+    color: rgb(15, 15, 40);
+    margin-bottom: 20px;
+}
+.Title h1{
+    font-style: italic ;
+    font-size: 65px;
+}
+.Anc-links{
+    padding-top: 50px;
+}
+.Anc-links div:hover{
+  color: rgb(19, 19, 32);
+  text-decoration: underline;
+}
+.Anc-links div{
+    padding: 7px;
+}
+.Cast{
+    width:120px;
+    height:40px;
+    padding: 20px;
+    font-family:  sans-serif bold;
+    text-decoration: underline;
+    font-size: 50px;
+    text-align: center;
+    margin:50px auto;
+    transition: 0.1s font-size ease-in 0s;
+}
+.Cast:hover{
+    font-size: 52px;
+}
+.card:hover{
+    box-shadow: 0.2px 0.8px 1.5px rgb(1, 2, 5);
+    text-decoration: underline;
+
+}
+
+.card{
+    height:180px;
+    width:180px;
+    border :0.2px solid black;
+    border-radius: 20px 20px 20px 20px ;
+    display: inline-block;
+    margin:35px 35px;
+    transition:2s box-shadow ease-in 0s;
+    transition:2s text-decoration ease 0s;
+    background-color: rgba(15, 13, 37, 0.676);
+    padding-left: 3px;
+    padding-bottom: 3px;;
+}
+.card img{
+    width: 100px;
+    height:100px;
+    margin-left:32px;
+    margin-right:32px;
+    border-radius: 5px;
+    transition: 1.1s border-radius ease 0s ;
+}
+.card h3{
+    margin-top: 20px;
+
+}
+.card :hover{
+
+    border-radius: 50%;
+}
+.AllCast{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    min-height:300px;
+    width:900px;
+    margin :10px auto;
+}
+.Title2{
+    text-align: center;
+}
