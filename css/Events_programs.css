@@ -4,7 +4,7 @@
   
  .blog-start .blog {
     margin-top: 110px;
-    color: #fff;
+    color: black;
     padding: 10px;
     text-align: center;
   }
@@ -43,7 +43,7 @@
 .blog-start  .event {
 
     gap: 10px;
-    color: #fff;
+    color: black;
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -54,7 +54,7 @@
   }
   
   .blog-start  .event h2 {
-    color: #b0efff;
+    color: black;
     align-items: left;
     font-size: 24px;
     margin: 0;  
@@ -77,7 +77,7 @@
     height: fit-content;
     background-color: #00C0F0;
     border: none;
-    color: #fff;
+    color: black;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;  
