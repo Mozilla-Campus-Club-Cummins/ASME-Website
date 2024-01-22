@@ -1,71 +1,70 @@
-
 *{
     margin-top: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-.contact{
-    position: relative;
-    padding: 25px 25px;
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(7, 7, 69, 0.8);  
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(27, 161, 154);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.contact{   
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
-    background-color: white;
-    max-width: 1200px; /* Set a suitable maximum width */
-    margin: 0 auto;
+    flex-direction: column;
+    background: linear-gradient(45deg, #3498db, #5d9cec, #82c4fa, #a9dcff, #3498db);
+    max-width: 1000px;
+    border-radius: 10px; 
+    margin: 20px auto;
 }
-.content{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 10px;
-    border-radius: 3px;
-    background-color:  rgb(45, 52, 78);
-    color: white;
-    max-width: 2000px;
-    text-align: center;
+
+@keyframes changeGradient {
+    0%, 100% { background: linear-gradient(45deg, #3498db, #5d9cec, #82c4fa, #a9dcff, #3498db); }
+    25% { background: linear-gradient(45deg, #5d9cec, #82c4fa, #a9dcff, #3498db, #5d9cec); }
+    50% { background: linear-gradient(45deg, #82c4fa, #a9dcff, #3498db, #5d9cec, #82c4fa); }
+    75% { background: linear-gradient(45deg, #a9dcff, #3498db, #5d9cec, #82c4fa, #a9dcff); }
 }
-.content .corner .logo{
-    display: inline-block;
-    position: absolute;
-    left: 25px;
-    top: 20px;
-    width: 100px;
-    filter: invert(100%);
-}
-.content h2{
-    font-size: 36px;
-    font-weight: 780;
-    color: white;
-}
-.content p{
-    font-weight: 500;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.container{
+
+.container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
-.container .contactInfo{
+ 
+.container .contactInfo {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-.container .contactInfo .box{
-    position: relative;
+
+.container .contactInfo .box {
     padding: 20px 0px;
     display: flex;
 }
-.container .contactInfo .box .icon{
+
+.container .contactInfo .box .icon {
     min-width: 60px;
     height: 60px;
-    background:  rgb(45, 52, 78);
+    background:  rgb(20, 40, 80);
     color: white;
     display: flex;
     justify-content: center;
@@ -73,7 +72,8 @@
     border-radius: 50%;
     font-size: 22px;
 }
-.container .contactInfo .box .text{
+
+.container .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
     font-size: 18px;
@@ -81,36 +81,46 @@
     flex-direction: column;
     font-weight: 300;
 }
-.container .contactInfo .box .text h3{
-    font-weight: 750;
-    color:  rgb(45, 52, 78);
+
+.container .contactInfo .box .text h3 {
+    font-weight: 300;
+    color: purple;
+    cursor:pointer;
+    font-family: fantasy;
 }
-.container .contactInfo .box .text p{
-    font-weight: 450;
-    color:  rgb(45, 52, 78);
+
+.container .contactInfo .box .text p {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-weight: var(--font-weight-medium);
+    color:  white;
 }
-.contactForm{
+
+.contactForm {
     width: 40%;
     height: 30%;
     padding:40px;
-    background-color:  rgb(45, 52, 78);
-    border-radius: 5px;
-    /* rgba(201, 195, 195, 0.571) */
+   background: linear-gradient(to right, rgb(20, 40, 80), rgb(39, 65, 161));
+   border-radius: 20px;
+   
 }
-.contactForm h2{
-    font-size: 29px;
-    color: white;
-    font-weight: 545;
+
+.contactForm h2 {
+    font-family: cursive;
+    font-size: 2.0rem;
+    font-weight: bold;
+    color: #3498db;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
-.contactForm .inputBox,
-.contactForm .inputBoxEmail{
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
+
+.contactForm h3 {
+    color: white;   
 }
+
 .contactForm .inputBox input,
-.contactForm .inputBoxEmail input,
-.contactForm .inputBox textarea{
+.contactForm .inputBox textarea {
     width: 100%;
     padding: 5px;
     font-size: 16px;
@@ -123,10 +133,8 @@
     border-radius: 5px;
     background-color:  rgba(255, 255, 255, 0);
 }
-.contactForm .inputBox span,
-.contactForm .inputBoxEmail span{
-    position: absolute;
-    left: 0;
+
+.contactForm .inputBox span {
     padding: 5px 0;
     font-size: 16px;
     margin: 10px 0px;
@@ -134,44 +142,25 @@
     transition: 0.5s;
     color: white;
 }
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBoxEmail input:focus ~ span,
-.contactForm .inputBoxEmail input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span{
-    color: white;
-    font-size: 12px;
-    transform: translateY(-20px);
-}
-.contactForm .inputBox input[type="submit"]{
-    width: 100px;
-    background: rgb(96, 173, 189);
+
+.contactForm .inputBox input[type="submit"] {
+    background: linear-gradient( #ff6ec4, #7873f5);
+    font-weight: 1000;
     color:  black;
     border: none;
-    cursor: 10px;
+    cursor: pointer;
     font-size: 18px;
 }
 
-.contactForm .inputBox input[type="submit"]:hover{
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
-.container .contactInfo .box .text p:hover{
-    background-color:  white;
-    color: rgba(45, 52, 78, 0.549);
-    cursor: pointer;
-} 
 
-.container .contactInfo .box .icon:hover{
+.container .contactInfo .icon:hover {
     background-color:  rgba(45, 52, 78, 0.202);
-    color: rgb(45, 52, 78);
-    max-width: 1200px; /* Set a suitable maximum width */
-    margin: 0 auto;
-} 
+    color: rgb(39, 65, 161);
+    max-width: 1200px; 
+    cursor: grab;
+    } 
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
     .contact{
         padding: 50px;
     }
@@ -183,12 +172,32 @@
     }
     .container .contactInfo, .contactForm{
         width: 100%;
+        margin: auto;
     } 
 }
 
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: 750;
+    color:  rgb(45, 52, 78);
+    font-weight: 450;
+    color: azure;
+    
+}
+
 .blog-start .blog {
-    margin-top: 110px;
-    color: #fff;
+    margin: 110px 100px 0px 100px;
+    color: black;
     padding: 10px;
     text-align: center;
-  }
+}
+
+.iframe {
+    display: flex;
+    width: calc(100vw - 200px);
+    justify-content: center;
+    margin: 20px auto;
+}
