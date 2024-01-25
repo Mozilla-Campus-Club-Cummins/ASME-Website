@@ -1,6 +1,11 @@
 *{
   margin: 0;
 }
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
   
  .blog-start .blog {
     margin-top: 110px;
@@ -21,20 +26,20 @@
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
+    place-content: center;
+    width: 100%;
+    margin-bottom: 42%;
   }
   
-
-  
   .blog-start  .upcoming-events {
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
     padding: 20px;
-    text-align: left;
-    margin: 0 auto;
+    /* text-align: left; */
+    width: 65%;
 }
 
 .blog-start .para{
   padding: 20px;
-
   display: grid;
   grid-template-columns: 85% 15%;
   gap: 20px;
@@ -47,7 +52,7 @@
     margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
-    width: 1000px;
+    width: 100%;
     border-radius: 5px;
     overflow: hidden;
     border-radius: 20px;
@@ -89,5 +94,33 @@
   .blog-start .button:hover {
     background-color: #abd4df;
   }
-  
-  
+  .footer-start{
+    margin-top: auto;
+  }
+  @media only screen and (max-width:1080px){
+    .blog-start  .event{
+      width: 100%;
+      position: relative;
+    }
+    .blog-start  .upcoming-events{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0px 39px;
+      width: 80%;
+      place-content: center;
+    }
+    .blog-start .para {
+      padding: 20px;
+      display: inline-block;
+      /* bottom: 10%; */
+   }
+    .blog-start .button{
+      position: absolute;
+      bottom: 2%;
+      padding: 1%;
+      left: 38%;
+    }
+    .blog-start .para p{
+      margin-bottom: 10px;
+    }
+  }  
