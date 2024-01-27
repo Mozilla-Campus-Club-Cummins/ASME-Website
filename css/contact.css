@@ -4,7 +4,23 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(248, 243, 243), rgb(17, 0, 143));
+  }
+.contact-start{
+    width: 100%;
+    margin-top: 110px;
+}
 
+.contact-section p {
+    margin: 16px 80px 16px 80px;
+}
 h1 {
     font-size: 2rem;
     font-weight: bold;
@@ -31,8 +47,9 @@ iframe {
     flex-direction: column;
     background: linear-gradient(45deg, #3498db, #5d9cec, #82c4fa, #a9dcff, #3498db);
     max-width: 1000px;
+    width: 100%;
     border-radius: 10px; 
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 @keyframes changeGradient {
@@ -160,6 +177,29 @@ iframe {
     cursor: grab;
     } 
 
+.blog-start .blog {
+    margin: 110px 100px 0px 100px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.iframe {
+    display: flex;
+    width: calc(100vw - 200px);
+    justify-content: center;
+    margin: 20px auto;
+}
+.text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: 750;
+    color:  rgb(45, 52, 78);
+    font-weight: 450;
+    color: azure;   
+}
+/* 
 @media (max-width: 991px) {
     .contact{
         padding: 50px;
@@ -174,30 +214,21 @@ iframe {
         width: 100%;
         margin: auto;
     } 
-}
+} */
 
-.text {
-    display: flex;
-    margin-left: 20px;
-    font-size: 18px;
-    flex-direction: column;
-    font-weight: 750;
-    color:  rgb(45, 52, 78);
-    font-weight: 450;
-    color: azure;
-    
+@media only screen and (max-width:1060px) {
+    .contact{   
+        width: 80%;
+    }
+    .iframe{
+        width: 80%;
+    }
 }
-
-.blog-start .blog {
-    margin: 110px 100px 0px 100px;
-    color: black;
-    padding: 10px;
-    text-align: center;
-}
-
-.iframe {
-    display: flex;
-    width: calc(100vw - 200px);
-    justify-content: center;
-    margin: 20px auto;
+@media only screen and (max-width:932px) {
+    .contact .container{
+        display: contents;
+    }
+    .contactForm{
+        width: 80%;
+    }
 }
