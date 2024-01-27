@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\home_slideshow.css">
+    <link rel="stylesheet" href="css.css">
+    <script defer src="js.js"></script>
     <title>ASME-CCOEW</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/navbar.css"> 
@@ -18,7 +19,8 @@
         <!-- Navbar -->
     <div class="navbar" style="margin-bottom: 20px;">
         <div class="topnav" id="myTopnav">
-        <a href="#" class="active">Home</a>            
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>               
         <a href="html/Events_programs.html">Events</a>
         <a href="html/Achievements.html">Achievements</a>
         <a href="html/Members.html">Teams</a>
@@ -59,7 +61,7 @@
     </div>
     <div class="shadow">
         <br><br><br>
-        <h1 >ABOUT US</h1>
+        <h1>ABOUT US</h1>
         <br>
         <p class="animated-text">
             ASME CCOEW was established in September 2015 by Tejaswani Jaglan and Zareen Cheema. Section expanded its reach to EnTc and instrumentation departments in the year 2020.
@@ -71,7 +73,7 @@
         </p>
     </div><br><hr>  
     <br><br><br>
-    <center><h1 id="events">RECENT EVENTS</h1></center>  
+    <center><h1>RECENT EVENTS</h1></center>  
     <div class="shadow2" style="text-align: center;">
         
          </div>
@@ -205,42 +207,7 @@
 
 
 
-<script>
-
-let slideIndex = 0;
-
-
-function showSlides() {
-    let i;
-    const slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1;
-    }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 2000); // Change slide every 2 seconds
-}
-
-
-function showInfo(element) {
-    const info = element.querySelector('.member-info');
-    info.style.opacity = '1';
-}
-
-
-function hideInfo(element) {
-    const info = element.querySelector('.member-info');
-    info.style.opacity = '0';
-}
-
-
-showSlides(); // Start the slideshow
-
-
-</script>   
+   
 
 
 </body>

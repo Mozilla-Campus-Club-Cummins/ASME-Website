@@ -1,3 +1,9 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .about-start .content{
     padding-top: 7%;
     /* width: 80%; */

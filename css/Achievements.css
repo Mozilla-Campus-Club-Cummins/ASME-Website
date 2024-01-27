@@ -1,139 +1,185 @@
-/* Set background color */
-
-  
-  /* Style for top logo */
-  #top-left {
-	position: absolute;
-	top: 0;
-	left: 0;
-  }
-
-  .blog-start .blog p{
-	padding: 20px;
-	gap: 10px;
-	text-align: left;
-  }
-  .blog-start  .container {
-	
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-  }
-  .blog-start .blog {
-    margin-top: 110px;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-
-  #top-right {
-	position: absolute;
-	top: 0;
-	right: 0;
-  }
-.here{
-	padding: 20px;
-	font-size: 20px;
+*{
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-  
-  /* Style for blocks */
-  .block {
-	width: 30%;
-	height: 500px;
-	margin: 20px;
-	display: inline-block;
-	background-color: #3b67ad; /* blue */
-	color: #fff; /* white */
-	text-align: center;
-	vertical-align: middle;
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  .block:nth-child(odd) {
-	background-color: #151b43; /* black */
-  }
-  
-  /* Style for block text */
-  .block h2 {
-	font-size: 24px;
-	margin-top: 50px;
-  }
-  
-  .block p {
-	padding: 20px;
-	font-size: 17px;
-  }
-  
-  /* Media queries for responsive design */
-  @media (max-width: 768px) {
-	.block {
-	  width: 45%;
-	}
-  }
-  
-  @media (max-width: 480px) {
-	.block {
-	  width: 90%;
-	}
-  }
-  /* container divs for the first row of blocks */
-  .row1 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #222020;
-	padding: 20px;
-	margin-top: 20px;
-  }
-  
-  /* container divs for the second row of blocks */
-  .row2 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #222020;
-	padding: 20px;
-	margin-top: 20px;
-  }
-  
-  /* individual block divs */
-  .block {
-	width: 30%;
-	background-color: #1d5765;
-	padding: 20px;
-	color: white;
-	text-align: center;
-	font-size: 18px;
-	border-radius: 20px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
 
-  .block h2{
-	padding-bottom: 20px;
-  }
-  .achievements_heading{
-	background-color: #222020;
-	color: #9b1515;
-	margin-top: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  
+.blog-start .blog{  
 	text-align: center;
-	height: 10px;
-	padding: 20px;
-  }
-  
-  
-  /* media query for smaller screens */
-  @media (max-width: 768px) {
-	.row1, .row2 {
-	  flex-direction: column;
-	  align-items: stretch;
-	}
-	.block {
-	  width: 100%;
-	  margin-top: 20px;
-	}
-  }
-  
-  
+	font-size: x-large;
+}
+ 
+h1{
+	color: #3b67ad;
+}
+
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #222020;
+}
+
+
+.block img{
+	width: 50%;
+	padding-right: 40px;
+}
+
+
+
+/* Style for top logo */
+#top-left {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.blog-start .blog p{
+padding: 20px;
+gap: 10px;
+text-align: left;
+}
+.blog-start  .container {
+
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
+}
+.blog-start .blog {
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+#top-right {
+position: absolute;
+top: 0;
+right: 0;
+}
+.here{
+padding: 20px;
+font-size: 20px;
+}
+
+/* Style for blocks */
+.block {
+width: 30%;
+height: 500px;
+margin: 20px;
+display: inline-block;
+background-color: #3b67ad97; /* blue */
+color: #fff; /* white */
+text-align: center;
+vertical-align: middle;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.block:hover{
+	box-shadow: 2px 2px 5px rgba(0, 142, 167, 0.89);
+}
+
+.block:nth-child(odd) {
+background-color: #92c7cf77; /* black */
+}
+
+/* Style for block text */
+.block h2 {
+font-size: 24px;
+margin-top: 50px;
+}
+
+.block p {
+padding: 20px;
+font-size: 17px;
+color: #3b67ad;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.block img{
+    width: 200px;
+    height:200px;
+    margin-left:32px;
+    margin-right:32px;
+    border-radius: 5px;
+    transition: 1.1s border-radius ease 0s ;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+.block {
+  width: 45%;
+}
+}
+
+@media (max-width: 480px) {
+.block {
+  width: 90%;
+}
+}
+/* container divs for the first row of blocks */
+.row1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* container divs for the second row of blocks */
+.row2 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+margin-top: 20px;
+}
+
+/* individual block divs */
+.block {
+width: 30%;
+background-color: #92c7cfa3;
+padding: 20px;
+color: white;
+text-align: center;
+font-size: 18px;
+border-radius: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.block h2{
+padding-bottom: 20px;
+color:  #00255c;
+font-family: Arial, Helvetica, sans-serif;
+}
+.achievements_heading{
+background-color: #202122;
+color: #9b1515;
+margin-top: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+height: 10px;
+padding: 20px;
+}
+
+
+/* media query for smaller screens */
+@media (max-width: 768px) {
+.row1, .row2 {
+  flex-direction: column;
+  align-items: stretch;
+}
+.block {
+  width: 100%;
+  margin-top: 20px;
+}
+}

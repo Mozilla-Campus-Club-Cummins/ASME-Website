@@ -14,41 +14,33 @@
 </head>
 <body>
     <!-- Navbar -->
-		<div class="nav-start">
-			<header class="header">
-      
-				<div class="nav-cont"><div class="nav-container">
-				<nav class="navbar-manual">
-					<div class="container-fluid">
-						<img
-						src="../images/asmecumminslogo.jpeg"
-						alt="ASME - CCOEW"
-						width="150"
-						height="81"
-						class="logo"
-					  />
-					
-					  <ul class="nav-items">
-						<li class="nav-item"><a href="../index.html">home</a></li>
-						<li class="nav-item"><a href="../index.html#about">about</a></li>               
-						<li class="nav-item"><a href="Events_programs.html">Events</a></li>
-						<li class="nav-item"><a href="Achievements.html">Achievements</a></li>
-						<li class="nav-item"><a href="Members.html">team</a></li>
-						<li class="nav-item"><a href="contact.html">contact</a></li>
-						<!-- <li class="nav-item" ><a href="" style="background-color: rgb(96, 173, 189); border-radius: 10px; padding: 10px;">Login</a></li>
-						</li> -->
-					  </ul>
-					</div>
-				  </nav>
-				  </div>
-				  </header>
-				  
-    	</div>
-	    <div class="contact-start">
+    <div class="navbar" style="margin-bottom: 20px;">
+        <div class="topnav" id="myTopnav">
+        <a href="../index.html" >Home</a>            
+        <a href="Events_programs.html">Events</a>
+        <a href="Achievements.html">Achievements</a>
+        <a href="Members.html">Teams</a>
+        <a href="contact.html" class="active">Contact</a>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+            }
+        </script>
+    </div>
+<div class="contact-start">
 		<div class="contact-section">
 			<h1>Contact Us</h1>
-            <p>The contact page on the ASME website is a vital resource for members and non-members alike who wish to connect with the organization. This page includes information on how to contact ASME via phone, email, or mail. It also includes a comprehensive list of ASME departments and services, along with their respective contact information.
-				Whether you have a question about membership, need technical support, or want to learn more about ASME's initiatives, the contact page is your go-to resource. ASME staff are available to answer your inquiries and provide assistance promptly and professionally.</p>
+            <p>The ASME website's contact page is crucial for both members and non-members seeking to engage with the organization. It offers details on reaching ASME via phone, email, or mail, along with a thorough directory of departments and services. Whether for membership queries, technical aid, or learning about initiatives, the contact page serves as the primary resource for prompt and professional assistance from ASME staff.</p>
 		</div>
     <!-- Google Map embed link -->
 	<div class="iframe">
@@ -102,6 +94,7 @@
     </div>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="../js/contact.js"></script>
+<br><br><br>
 
 <!-- Footer -->
 <div class="footer-start">

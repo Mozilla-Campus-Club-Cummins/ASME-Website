@@ -2,7 +2,7 @@
     margin-top: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     padding: 0;
@@ -15,7 +15,6 @@ body{
   }
 .contact-start{
     width: 100%;
-    margin-top: 110px;
 }
 
 .contact-section p {
@@ -103,11 +102,11 @@ iframe {
     font-weight: 300;
     color: purple;
     cursor:pointer;
-    font-family: fantasy;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container .contactInfo .box .text p {
-    font-family: "UnifrakturMaguntia", cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: var(--font-weight-medium);
     color:  white;
 }
@@ -122,7 +121,7 @@ iframe {
 }
 
 .contactForm h2 {
-    font-family: cursive;
+    
     font-size: 2.0rem;
     font-weight: bold;
     color: #3498db;
@@ -216,7 +215,7 @@ iframe {
     } 
 } */
 
-@media only screen and (max-width:1060px) {
+@media (max-width:1060px) {
     .contact{   
         width: 80%;
     }
@@ -224,11 +223,15 @@ iframe {
         width: 80%;
     }
 }
-@media only screen and (max-width:932px) {
+@media (max-width:800px) {
     .contact .container{
         display: contents;
     }
     .contactForm{
         width: 80%;
+    }
+
+    .contact-start {
+        width: auto;
     }
 }
