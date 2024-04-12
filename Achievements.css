@@ -78,10 +78,7 @@ body{
 	font-size: 17px;
   }
 
-  .img_two{
-	display: flex;
-	
-  }
+  
   
   /* Media queries for responsive design */
   @media (max-width: 768px) {
