@@ -61,7 +61,7 @@ a { color: white; }
 }
 
 .card{
-    height:200px;
+    height:220px;
     width:180px;
     border :0.2px solid black;
     border-radius: 10px ;
@@ -70,7 +70,12 @@ a { color: white; }
     transition:2s text-decoration ease 0s;
     background-color: rgba(151, 151, 234, 0.669);
     padding-left: 3px;
-    padding-bottom: 3px;;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
 }
 .card img{
     width: 200px;
@@ -81,12 +86,16 @@ a { color: white; }
     transition: 1.1s border-radius ease 0s ;
 }
 .card h2{
+    color: #3b67aded;
     margin-left: 10px;
     font-size: 20px;
+    text-align: center;
 }
 .card h5{
     margin: 15px;
     font-size: 15px;
+    color: rgba(0, 0, 0, 0.597);
+    text-align: center;
 }
 
 .AllCast{

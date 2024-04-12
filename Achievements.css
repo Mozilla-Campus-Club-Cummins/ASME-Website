@@ -54,6 +54,8 @@ body{
 	color: #fff; /* white */
 	text-align: center;
 	vertical-align: middle;
+	display: flex;
+    flex-direction: column;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
   
@@ -74,6 +76,11 @@ body{
   .block p {
 	padding: 20px;
 	font-size: 17px;
+  }
+
+  .img_two{
+	display: flex;
+	
   }
   
   /* Media queries for responsive design */
