@@ -9,7 +9,7 @@
 - [Forking and cloning the project](#forking-and-cloning-the-project)
 - [Signing commits](#signing-commits)
 
-Welcome 👋 Thank you for your interest in contributing to MDN Web Docs. We are happy to have you join us! 💖
+Welcome 👋 Thank you for your interest in contributing to Mozilla-Campus-Club-Cummins. We are happy to have you join us! 💖
 
 As you get started, you are in the best position to give us feedback on project areas we might have forgotten about or assumed to work well.
 These include, but are not limited to:
@@ -38,23 +38,23 @@ Good first issues have extra information to help you make your first contributio
 Help wanted issues are ideal when you feel a bit more comfortable with the project details.
 
 Sometimes there won't be any issues with these labels, but there is likely still something for you to work on.
-If you want to contribute but don't know where to start or can't find a suitable issue, speak to us on [Matrix](https://matrix.to/#/#mdn:mozilla.org), and we will be happy to help.
+If you want to contribute but don't know where to start or can't find a suitable issue, speak to us on [Matrix](https://github.com/pratyush07-hub/ASME-Website/tree/patch-1), and we will be happy to help.
 
 Once you find an issue you'd like to work on, please post a comment saying you want to work on it.
 Something like "I want to work on this" is fine.
-Also, mention the community team using the `@mdn/mdn-community-engagement` handle to ensure someone will get back to you.
+Also, mention the community team handle to ensure someone will get back to you.
 
 ## Asking for help
 
 The best way to reach us with a question when contributing is to use the following channels in the following order of precedence:
 
-- [Start a discussion](https://github.com/orgs/mdn/discussions)
-- Ask your question or highlight your discussion on [Matrix](https://matrix.to/#/#mdn:mozilla.org).
-- File an issue and tag the community team using the `@mdn/mdn-community-engagement` handle.
+- [Start a discussion]
+- Ask your question or highlight your discussion on [Matrix](https://github.com/pratyush07-hub/ASME-Website/tree/patch-1).
+- File an issue and tag the community team.
 
 ## Pull request process
 
-The MDN Web Docs project has a well-defined pull request process which is documented in the [Pull request guidelines](https://developer.mozilla.org/en-US/docs/MDN/Community/Pull_requests).
+The Mozilla-Campus-Club-Cummins project has a well-defined pull request process which is documented in the [Pull request guidelines].
 Make sure you read and understand this process before you start working on a pull request.
 
 ### Forking and cloning the project
