@@ -2,13 +2,13 @@ body {
     background: radial-gradient(circle, rgb(147, 171, 195) 0%, rgb(235, 238, 241) 69%, rgb(9, 70, 150) 100%);
 
 }
-#Y23-24 ,#Y22-23{
+#Y24-25 ,#Y23-24 ,#Y22-23{
     height :800px;
     width:1000px;
     background-color: black;
     color:rgb(175, 204, 230);
 }
-#Y22-23,#Y23-24{
+#Y24-25 ,#Y22-23,#Y23-24{
     
     height :80%;
     width:80%;
