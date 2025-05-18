@@ -1,0 +1,35 @@
+/* scroll-buttons.css */
+
+#scrollTopBtn, #scrollBottomBtn {
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%; /* Makes it circular */
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s, background-color 0.3s;
+    z-index: 1000;
+    color: white;
+    background-color: #007BFF; /* Bootstrap primary blue */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #scrollTopBtn:hover, #scrollBottomBtn:hover {
+    opacity: 1;
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  #scrollTopBtn {
+    bottom: 80px; /* Slightly above bottom button */
+  }
+  
+  #scrollBottomBtn {
+    bottom: 20px;
+  }
+  
