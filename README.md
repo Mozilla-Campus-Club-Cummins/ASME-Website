@@ -1,29 +1,50 @@
 # ASME Website
 
-## About us :
-Mozilla Campus Club CCEW is a student committee working to spread awareness on Open Source software. We organize webinars and workshops on different technical topics and making Open Source contributions.
-This is a collaboration with ASME CCOEW
+![Image](https://github.com/user-attachments/assets/3c277aa6-6fb1-4636-b14a-a05bbbe9a0d9)
+##  About Us
+The **Mozilla Campus Club of CCEW** was formed to **promote the idea of open source** among aspiring students and encourage them to make the most of the opportunities that come along with it.  
+Our aim is to help students contribute to real-world projects while learning and growing with the community.
 
-This repository is only for students of MKSSS's Cummins College of Engineering Pune.
 
-## Instructions:
-• Any PR(Pull Request) from outside the college will not be accepted.
+---
 
-• Mention your "first name last name" on your GitHub profile (If we are unable to identify you we won't accept your PR).
 
-• Any kind of spamming won't be tolerated.
+##  About This Repository
+This repository was created specifically to **support open-source participation among college students**.  
+The issues listed here will range in difficulty — from **beginner-friendly** to **advanced-level** — ensuring everyone has a fair opportunity to contribute.
 
-• Make sure you have registered on the Google form that was circulated (Check your emails to get the registration link).
 
-• Make sure the code is with proper indentation and comments.
+---
 
-• In case of any plagiarism your PR will be rejected.
 
-• Issues will be assigned on a first come first serve basis.
+## Instructions for Hacktoberfest 2025
 
-• If you wish to work on any issue comment on the issue with your name, C no, Year, and Branch. Once you are assigned with the issue you can start working on it.
 
-• You will get a maximum of 3 days to work on an issue. If failed to do so the issue will be assigned to another student.
+> Please read the following instructions carefully before contributing 
+
+
+- You must be a **student of CCEW**.  
+- You should be **registered in Mozilla** via the Mozilla-Campus Club website link shared earlier and also on the **official Hacktoberfest website**.  
+- Each participant is allowed a **maximum of 3 Pull Requests (PRs)** throughout the event.  
+- Make sure your **GitHub profile name** matches your real name (`First Name Last Name`).  
+  > If we’re unable to identify you, your PR won’t be accepted.  
+- When requesting issue assignment, mention:
+  - Your **name**
+  - **Branch**
+  - **Year of study**
+- Ensure your **code has proper comments and indentation**.  
+- **No spamming** — spam PRs will be rejected.  
+- **Plagiarism is strictly prohibited.**
+  > If plagiarism is detected, the PR will be rejected and no further contributions will be accepted.  
+- Issues will be assigned on a **first-come, first-serve basis**.  
+- Time limits:
+  -  **4 days** for easy/medium issues  
+  -  **7 days** for hard issues  
+  - If you fail to complete within the time, the issue will be reassigned to another student.
+
+
+---
+
 
 **Important: Use ROBOTO font for all the pages**
 
